@@ -1,3 +1,4 @@
 output "sample" {
-  value = "hellow world"
+  value        = "hellow world"
+  description  = "hellow to world"
 }
