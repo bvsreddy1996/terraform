@@ -1,5 +1,5 @@
 module "roboshop" {
   source = "../module"
-  COMPONENT = "redis"
-  PORT      = 6379
+  COMPONENT = "user"
+  PORT      = 8080
 }
