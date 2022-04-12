@@ -1,7 +1,15 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.0"
+    }
+  }
+}
+
+# Configure the AWS Provider
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "AKIA5PFCKEU4EBLMGBGC"
-  secret_key = "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"
+  region = "us-east-1"
 }
 
 resource "aws_vpc" "main" {
